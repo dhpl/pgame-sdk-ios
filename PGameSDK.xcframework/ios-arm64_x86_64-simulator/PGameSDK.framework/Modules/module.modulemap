@@ -1,0 +1,4 @@
+framework module PGameSDK {
+  header "../Headers/PGameSDK-Swift.h"
+  export *
+}

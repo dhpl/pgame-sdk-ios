@@ -1,0 +1,4838 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PGameSDK",
+    "printedName": "PGameSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PGameSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PGameSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PGameSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PGameSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameEnvironment",
+        "printedName": "PGameEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sandbox",
+            "printedName": "sandbox",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameEnvironment.Type) -> PGameSDK.PGameEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameEnvironment",
+                    "printedName": "PGameSDK.PGameEnvironment",
+                    "usr": "c:@M@PGameSDK@E@PGameEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameEnvironment",
+                        "printedName": "PGameSDK.PGameEnvironment",
+                        "usr": "c:@M@PGameSDK@E@PGameEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PGameSDK@E@PGameEnvironment@PGameEnvironmentSandbox",
+            "mangledName": "$s8PGameSDK0A11EnvironmentO7sandboxyA2CmF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameEnvironment.Type) -> PGameSDK.PGameEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameEnvironment",
+                    "printedName": "PGameSDK.PGameEnvironment",
+                    "usr": "c:@M@PGameSDK@E@PGameEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameEnvironment",
+                        "printedName": "PGameSDK.PGameEnvironment",
+                        "usr": "c:@M@PGameSDK@E@PGameEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PGameSDK@E@PGameEnvironment@PGameEnvironmentProduction",
+            "mangledName": "$s8PGameSDK0A11EnvironmentO10productionyA2CmF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameEnvironment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameEnvironment",
+                    "printedName": "PGameSDK.PGameEnvironment",
+                    "usr": "c:@M@PGameSDK@E@PGameEnvironment"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PGameSDK0A11EnvironmentO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8PGameSDK0A11EnvironmentO8rawValueACSgSi_tcfc",
+            "moduleName": "PGameSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11EnvironmentO8rawValueSivp",
+            "mangledName": "$s8PGameSDK0A11EnvironmentO8rawValueSivp",
+            "moduleName": "PGameSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11EnvironmentO8rawValueSivg",
+                "mangledName": "$s8PGameSDK0A11EnvironmentO8rawValueSivg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@PGameSDK@E@PGameEnvironment",
+        "mangledName": "$s8PGameSDK0A11EnvironmentO",
+        "moduleName": "PGameSDK",
+        "objc_name": "PGameEnvironment",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameProvider",
+        "printedName": "PGameProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "account",
+            "printedName": "account",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameProvider.Type) -> PGameSDK.PGameProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameProvider",
+                    "printedName": "PGameSDK.PGameProvider",
+                    "usr": "c:@M@PGameSDK@E@PGameProvider"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameProvider",
+                        "printedName": "PGameSDK.PGameProvider",
+                        "usr": "c:@M@PGameSDK@E@PGameProvider"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PGameSDK@E@PGameProvider@PGameProviderAccount",
+            "mangledName": "$s8PGameSDK0A8ProviderO7accountyA2CmF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "google",
+            "printedName": "google",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameProvider.Type) -> PGameSDK.PGameProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameProvider",
+                    "printedName": "PGameSDK.PGameProvider",
+                    "usr": "c:@M@PGameSDK@E@PGameProvider"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameProvider",
+                        "printedName": "PGameSDK.PGameProvider",
+                        "usr": "c:@M@PGameSDK@E@PGameProvider"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PGameSDK@E@PGameProvider@PGameProviderGoogle",
+            "mangledName": "$s8PGameSDK0A8ProviderO6googleyA2CmF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "apple",
+            "printedName": "apple",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameProvider.Type) -> PGameSDK.PGameProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameProvider",
+                    "printedName": "PGameSDK.PGameProvider",
+                    "usr": "c:@M@PGameSDK@E@PGameProvider"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameProvider",
+                        "printedName": "PGameSDK.PGameProvider",
+                        "usr": "c:@M@PGameSDK@E@PGameProvider"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PGameSDK@E@PGameProvider@PGameProviderApple",
+            "mangledName": "$s8PGameSDK0A8ProviderO5appleyA2CmF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameProvider?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameProvider",
+                    "printedName": "PGameSDK.PGameProvider",
+                    "usr": "c:@M@PGameSDK@E@PGameProvider"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PGameSDK0A8ProviderO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8PGameSDK0A8ProviderO8rawValueACSgSi_tcfc",
+            "moduleName": "PGameSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A8ProviderO8rawValueSivp",
+            "mangledName": "$s8PGameSDK0A8ProviderO8rawValueSivp",
+            "moduleName": "PGameSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A8ProviderO8rawValueSivg",
+                "mangledName": "$s8PGameSDK0A8ProviderO8rawValueSivg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@PGameSDK@E@PGameProvider",
+        "mangledName": "$s8PGameSDK0A8ProviderO",
+        "moduleName": "PGameSDK",
+        "objc_name": "PGameProvider",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameConfig",
+        "printedName": "PGameConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameEnvironment",
+                "printedName": "PGameSDK.PGameEnvironment",
+                "usr": "c:@M@PGameSDK@E@PGameEnvironment"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(py)environment",
+            "mangledName": "$s8PGameSDK0A6ConfigC11environmentAA0A11EnvironmentOvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameEnvironment",
+                    "printedName": "PGameSDK.PGameEnvironment",
+                    "usr": "c:@M@PGameSDK@E@PGameEnvironment"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(im)environment",
+                "mangledName": "$s8PGameSDK0A6ConfigC11environmentAA0A11EnvironmentOvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(py)clientId",
+            "mangledName": "$s8PGameSDK0A6ConfigC8clientIdSSvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(im)clientId",
+                "mangledName": "$s8PGameSDK0A6ConfigC8clientIdSSvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gameCode",
+            "printedName": "gameCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(py)gameCode",
+            "mangledName": "$s8PGameSDK0A6ConfigC8gameCodeSSvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(im)gameCode",
+                "mangledName": "$s8PGameSDK0A6ConfigC8gameCodeSSvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectScheme",
+            "printedName": "redirectScheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(py)redirectScheme",
+            "mangledName": "$s8PGameSDK0A6ConfigC14redirectSchemeSSvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(im)redirectScheme",
+                "mangledName": "$s8PGameSDK0A6ConfigC14redirectSchemeSSvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(py)deviceId",
+            "mangledName": "$s8PGameSDK0A6ConfigC8deviceIdSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(im)deviceId",
+                "mangledName": "$s8PGameSDK0A6ConfigC8deviceIdSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scope",
+            "printedName": "scope",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(py)scope",
+            "mangledName": "$s8PGameSDK0A6ConfigC5scopeSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(im)scope",
+                "mangledName": "$s8PGameSDK0A6ConfigC5scopeSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectUri",
+            "printedName": "redirectUri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(py)redirectUri",
+            "mangledName": "$s8PGameSDK0A6ConfigC11redirectUriSSvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(im)redirectUri",
+                "mangledName": "$s8PGameSDK0A6ConfigC11redirectUriSSvg",
+                "moduleName": "PGameSDK",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(environment:clientId:gameCode:redirectScheme:deviceId:scope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameConfig",
+                "printedName": "PGameSDK.PGameConfig",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PGameEnvironment",
+                "printedName": "PGameSDK.PGameEnvironment",
+                "usr": "c:@M@PGameSDK@E@PGameEnvironment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(im)initWithEnvironment:clientId:gameCode:redirectScheme:deviceId:scope:",
+            "mangledName": "$s8PGameSDK0A6ConfigC11environment8clientId8gameCode14redirectScheme06deviceF05scopeAcA0A11EnvironmentO_S4SSgALtcfc",
+            "moduleName": "PGameSDK",
+            "objc_name": "initWithEnvironment:clientId:gameCode:redirectScheme:deviceId:scope:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameConfig",
+                "printedName": "PGameSDK.PGameConfig",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameConfig(im)init",
+            "mangledName": "$s8PGameSDK0A6ConfigCACycfc",
+            "moduleName": "PGameSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PGameSDK@objc(cs)PGameConfig",
+        "mangledName": "$s8PGameSDK0A6ConfigC",
+        "moduleName": "PGameSDK",
+        "objc_name": "PGameConfig",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameUser",
+        "printedName": "PGameUser",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameUser(py)id",
+            "mangledName": "$s8PGameSDK0A4UserC2idSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameUser(im)id",
+                "mangledName": "$s8PGameSDK0A4UserC2idSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "username",
+            "printedName": "username",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameUser(py)username",
+            "mangledName": "$s8PGameSDK0A4UserC8usernameSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameUser(im)username",
+                "mangledName": "$s8PGameSDK0A4UserC8usernameSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameUser(py)email",
+            "mangledName": "$s8PGameSDK0A4UserC5emailSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameUser(im)email",
+                "mangledName": "$s8PGameSDK0A4UserC5emailSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameUser(py)phone",
+            "mangledName": "$s8PGameSDK0A4UserC5phoneSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameUser(im)phone",
+                "mangledName": "$s8PGameSDK0A4UserC5phoneSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:username:email:phone:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameUser",
+                "printedName": "PGameSDK.PGameUser",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameUser"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameUser(im)initWithId:username:email:phone:",
+            "mangledName": "$s8PGameSDK0A4UserC2id8username5email5phoneACSSSg_A3Htcfc",
+            "moduleName": "PGameSDK",
+            "objc_name": "initWithId:username:email:phone:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameUser",
+                "printedName": "PGameSDK.PGameUser",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameUser"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameUser(im)init",
+            "mangledName": "$s8PGameSDK0A4UserCACycfc",
+            "moduleName": "PGameSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PGameSDK@objc(cs)PGameUser",
+        "mangledName": "$s8PGameSDK0A4UserC",
+        "moduleName": "PGameSDK",
+        "objc_name": "PGameUser",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameInfo",
+        "printedName": "PGameInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameInfo(py)id",
+            "mangledName": "$s8PGameSDK0A4InfoC2idSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameInfo(im)id",
+                "mangledName": "$s8PGameSDK0A4InfoC2idSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gameCode",
+            "printedName": "gameCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameInfo(py)gameCode",
+            "mangledName": "$s8PGameSDK0A4InfoC8gameCodeSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameInfo(im)gameCode",
+                "mangledName": "$s8PGameSDK0A4InfoC8gameCodeSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameInfo(py)name",
+            "mangledName": "$s8PGameSDK0A4InfoC4nameSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameInfo(im)name",
+                "mangledName": "$s8PGameSDK0A4InfoC4nameSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:gameCode:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameInfo",
+                "printedName": "PGameSDK.PGameInfo",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameInfo(im)initWithId:gameCode:name:",
+            "mangledName": "$s8PGameSDK0A4InfoC2id8gameCode4nameACSSSg_A2Gtcfc",
+            "moduleName": "PGameSDK",
+            "objc_name": "initWithId:gameCode:name:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameInfo",
+                "printedName": "PGameSDK.PGameInfo",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameInfo(im)init",
+            "mangledName": "$s8PGameSDK0A4InfoCACycfc",
+            "moduleName": "PGameSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PGameSDK@objc(cs)PGameInfo",
+        "mangledName": "$s8PGameSDK0A4InfoC",
+        "moduleName": "PGameSDK",
+        "objc_name": "PGameInfo",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameTokenInfo",
+        "printedName": "PGameTokenInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(py)accessToken",
+            "mangledName": "$s8PGameSDK0A9TokenInfoC06accessC0SSvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(im)accessToken",
+                "mangledName": "$s8PGameSDK0A9TokenInfoC06accessC0SSvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshToken",
+            "printedName": "refreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(py)refreshToken",
+            "mangledName": "$s8PGameSDK0A9TokenInfoC07refreshC0SSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(im)refreshToken",
+                "mangledName": "$s8PGameSDK0A9TokenInfoC07refreshC0SSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokenType",
+            "printedName": "tokenType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(py)tokenType",
+            "mangledName": "$s8PGameSDK0A9TokenInfoC9tokenTypeSSvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(im)tokenType",
+                "mangledName": "$s8PGameSDK0A9TokenInfoC9tokenTypeSSvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiresIn",
+            "printedName": "expiresIn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(py)expiresIn",
+            "mangledName": "$s8PGameSDK0A9TokenInfoC9expiresInSivp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(im)expiresIn",
+                "mangledName": "$s8PGameSDK0A9TokenInfoC9expiresInSivg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshExpiresIn",
+            "printedName": "refreshExpiresIn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(py)refreshExpiresIn",
+            "mangledName": "$s8PGameSDK0A9TokenInfoC16refreshExpiresInSivp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(im)refreshExpiresIn",
+                "mangledName": "$s8PGameSDK0A9TokenInfoC16refreshExpiresInSivg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scope",
+            "printedName": "scope",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(py)scope",
+            "mangledName": "$s8PGameSDK0A9TokenInfoC5scopeSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(im)scope",
+                "mangledName": "$s8PGameSDK0A9TokenInfoC5scopeSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(accessToken:refreshToken:tokenType:expiresIn:refreshExpiresIn:scope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameTokenInfo",
+                "printedName": "PGameSDK.PGameTokenInfo",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(im)initWithAccessToken:refreshToken:tokenType:expiresIn:refreshExpiresIn:scope:",
+            "mangledName": "$s8PGameSDK0A9TokenInfoC06accessC007refreshC09tokenType9expiresIn0f7ExpiresJ05scopeACSS_SSSgSSS2iAJtcfc",
+            "moduleName": "PGameSDK",
+            "objc_name": "initWithAccessToken:refreshToken:tokenType:expiresIn:refreshExpiresIn:scope:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameTokenInfo",
+                "printedName": "PGameSDK.PGameTokenInfo",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo(im)init",
+            "mangledName": "$s8PGameSDK0A9TokenInfoCACycfc",
+            "moduleName": "PGameSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo",
+        "mangledName": "$s8PGameSDK0A9TokenInfoC",
+        "moduleName": "PGameSDK",
+        "objc_name": "PGameTokenInfo",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameLoginResultObjC",
+        "printedName": "PGameLoginResultObjC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(py)code",
+            "mangledName": "$s8PGameSDK0A15LoginResultObjCC4codeSSvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(im)code",
+                "mangledName": "$s8PGameSDK0A15LoginResultObjCC4codeSSvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(py)state",
+            "mangledName": "$s8PGameSDK0A15LoginResultObjCC5stateSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(im)state",
+                "mangledName": "$s8PGameSDK0A15LoginResultObjCC5stateSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectUri",
+            "printedName": "redirectUri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(py)redirectUri",
+            "mangledName": "$s8PGameSDK0A15LoginResultObjCC11redirectUriSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(im)redirectUri",
+                "mangledName": "$s8PGameSDK0A15LoginResultObjCC11redirectUriSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "user",
+            "printedName": "user",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameUser",
+                    "printedName": "PGameSDK.PGameUser",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameUser"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(py)user",
+            "mangledName": "$s8PGameSDK0A15LoginResultObjCC4userAA0A4UserCSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PGameSDK.PGameUser?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameUser",
+                        "printedName": "PGameSDK.PGameUser",
+                        "usr": "c:@M@PGameSDK@objc(cs)PGameUser"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(im)user",
+                "mangledName": "$s8PGameSDK0A15LoginResultObjCC4userAA0A4UserCSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "game",
+            "printedName": "game",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameInfo",
+                    "printedName": "PGameSDK.PGameInfo",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(py)game",
+            "mangledName": "$s8PGameSDK0A15LoginResultObjCC4gameAA0A4InfoCSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PGameSDK.PGameInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameInfo",
+                        "printedName": "PGameSDK.PGameInfo",
+                        "usr": "c:@M@PGameSDK@objc(cs)PGameInfo"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(im)game",
+                "mangledName": "$s8PGameSDK0A15LoginResultObjCC4gameAA0A4InfoCSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameTokenInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameTokenInfo",
+                    "printedName": "PGameSDK.PGameTokenInfo",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(py)token",
+            "mangledName": "$s8PGameSDK0A15LoginResultObjCC5tokenAA0A9TokenInfoCSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PGameSDK.PGameTokenInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameTokenInfo",
+                        "printedName": "PGameSDK.PGameTokenInfo",
+                        "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(im)token",
+                "mangledName": "$s8PGameSDK0A15LoginResultObjCC5tokenAA0A9TokenInfoCSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:state:redirectUri:user:game:token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameLoginResultObjC",
+                "printedName": "PGameSDK.PGameLoginResultObjC",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameUser",
+                    "printedName": "PGameSDK.PGameUser",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameUser"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameInfo",
+                    "printedName": "PGameSDK.PGameInfo",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameTokenInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameTokenInfo",
+                    "printedName": "PGameSDK.PGameTokenInfo",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(im)initWithCode:state:redirectUri:user:game:token:",
+            "mangledName": "$s8PGameSDK0A15LoginResultObjCC4code5state11redirectUri4user4game5tokenACSS_SSSgAjA0A4UserCSgAA0A4InfoCSgAA0a5TokenN0CSgtcfc",
+            "moduleName": "PGameSDK",
+            "objc_name": "initWithCode:state:redirectUri:user:game:token:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameLoginResultObjC",
+                "printedName": "PGameSDK.PGameLoginResultObjC",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC(im)init",
+            "mangledName": "$s8PGameSDK0A15LoginResultObjCCACycfc",
+            "moduleName": "PGameSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC",
+        "mangledName": "$s8PGameSDK0A15LoginResultObjCC",
+        "moduleName": "PGameSDK",
+        "objc_name": "PGameLoginResultObjC",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameLoginResult",
+        "printedName": "PGameLoginResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11LoginResultV4codeSSvp",
+            "mangledName": "$s8PGameSDK0A11LoginResultV4codeSSvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11LoginResultV4codeSSvg",
+                "mangledName": "$s8PGameSDK0A11LoginResultV4codeSSvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11LoginResultV5stateSSSgvp",
+            "mangledName": "$s8PGameSDK0A11LoginResultV5stateSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11LoginResultV5stateSSSgvg",
+                "mangledName": "$s8PGameSDK0A11LoginResultV5stateSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectUri",
+            "printedName": "redirectUri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11LoginResultV11redirectUriSSSgvp",
+            "mangledName": "$s8PGameSDK0A11LoginResultV11redirectUriSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11LoginResultV11redirectUriSSSgvg",
+                "mangledName": "$s8PGameSDK0A11LoginResultV11redirectUriSSSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "user",
+            "printedName": "user",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameUser",
+                    "printedName": "PGameSDK.PGameUser",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameUser"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11LoginResultV4userAA0A4UserCSgvp",
+            "mangledName": "$s8PGameSDK0A11LoginResultV4userAA0A4UserCSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PGameSDK.PGameUser?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameUser",
+                        "printedName": "PGameSDK.PGameUser",
+                        "usr": "c:@M@PGameSDK@objc(cs)PGameUser"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11LoginResultV4userAA0A4UserCSgvg",
+                "mangledName": "$s8PGameSDK0A11LoginResultV4userAA0A4UserCSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "game",
+            "printedName": "game",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameInfo",
+                    "printedName": "PGameSDK.PGameInfo",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11LoginResultV4gameAA0A4InfoCSgvp",
+            "mangledName": "$s8PGameSDK0A11LoginResultV4gameAA0A4InfoCSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PGameSDK.PGameInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameInfo",
+                        "printedName": "PGameSDK.PGameInfo",
+                        "usr": "c:@M@PGameSDK@objc(cs)PGameInfo"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11LoginResultV4gameAA0A4InfoCSgvg",
+                "mangledName": "$s8PGameSDK0A11LoginResultV4gameAA0A4InfoCSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameTokenInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameTokenInfo",
+                    "printedName": "PGameSDK.PGameTokenInfo",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11LoginResultV5tokenAA0A9TokenInfoCSgvp",
+            "mangledName": "$s8PGameSDK0A11LoginResultV5tokenAA0A9TokenInfoCSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PGameSDK.PGameTokenInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameTokenInfo",
+                        "printedName": "PGameSDK.PGameTokenInfo",
+                        "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11LoginResultV5tokenAA0A9TokenInfoCSgvg",
+                "mangledName": "$s8PGameSDK0A11LoginResultV5tokenAA0A9TokenInfoCSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11LoginResultV11accessTokenSSSgvp",
+            "mangledName": "$s8PGameSDK0A11LoginResultV11accessTokenSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11LoginResultV11accessTokenSSSgvg",
+                "mangledName": "$s8PGameSDK0A11LoginResultV11accessTokenSSSgvg",
+                "moduleName": "PGameSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshToken",
+            "printedName": "refreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11LoginResultV12refreshTokenSSSgvp",
+            "mangledName": "$s8PGameSDK0A11LoginResultV12refreshTokenSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11LoginResultV12refreshTokenSSSgvg",
+                "mangledName": "$s8PGameSDK0A11LoginResultV12refreshTokenSSSgvg",
+                "moduleName": "PGameSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PGameSDK0A11LoginResultV",
+        "mangledName": "$s8PGameSDK0A11LoginResultV",
+        "moduleName": "PGameSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameTokenResult",
+        "printedName": "PGameTokenResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameTokenInfo",
+                "printedName": "PGameSDK.PGameTokenInfo",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11TokenResultV5tokenAA0aC4InfoCvp",
+            "mangledName": "$s8PGameSDK0A11TokenResultV5tokenAA0aC4InfoCvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameTokenInfo",
+                    "printedName": "PGameSDK.PGameTokenInfo",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameTokenInfo"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11TokenResultV5tokenAA0aC4InfoCvg",
+                "mangledName": "$s8PGameSDK0A11TokenResultV5tokenAA0aC4InfoCvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "user",
+            "printedName": "user",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameUser",
+                    "printedName": "PGameSDK.PGameUser",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameUser"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11TokenResultV4userAA0A4UserCSgvp",
+            "mangledName": "$s8PGameSDK0A11TokenResultV4userAA0A4UserCSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PGameSDK.PGameUser?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameUser",
+                        "printedName": "PGameSDK.PGameUser",
+                        "usr": "c:@M@PGameSDK@objc(cs)PGameUser"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11TokenResultV4userAA0A4UserCSgvg",
+                "mangledName": "$s8PGameSDK0A11TokenResultV4userAA0A4UserCSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "game",
+            "printedName": "game",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PGameSDK.PGameInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameInfo",
+                    "printedName": "PGameSDK.PGameInfo",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A11TokenResultV4gameAA0A4InfoCSgvp",
+            "mangledName": "$s8PGameSDK0A11TokenResultV4gameAA0A4InfoCSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PGameSDK.PGameInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameInfo",
+                        "printedName": "PGameSDK.PGameInfo",
+                        "usr": "c:@M@PGameSDK@objc(cs)PGameInfo"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A11TokenResultV4gameAA0A4InfoCSgvg",
+                "mangledName": "$s8PGameSDK0A11TokenResultV4gameAA0A4InfoCSgvg",
+                "moduleName": "PGameSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PGameSDK0A11TokenResultV",
+        "mangledName": "$s8PGameSDK0A11TokenResultV",
+        "moduleName": "PGameSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameSDKError",
+        "printedName": "PGameSDKError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notConfigured",
+            "printedName": "notConfigured",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameSDKError.Type) -> PGameSDK.PGameSDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameSDKError",
+                    "printedName": "PGameSDK.PGameSDKError",
+                    "usr": "s:8PGameSDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PGameSDK0A8SDKErrorO13notConfiguredyA2CmF",
+            "mangledName": "$s8PGameSDK0A8SDKErrorO13notConfiguredyA2CmF",
+            "moduleName": "PGameSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameSDKError.Type) -> PGameSDK.PGameSDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameSDKError",
+                    "printedName": "PGameSDK.PGameSDKError",
+                    "usr": "s:8PGameSDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PGameSDK0A8SDKErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s8PGameSDK0A8SDKErrorO15invalidResponseyA2CmF",
+            "moduleName": "PGameSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "missingGoogleClientId",
+            "printedName": "missingGoogleClientId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameSDKError.Type) -> PGameSDK.PGameSDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameSDKError",
+                    "printedName": "PGameSDK.PGameSDKError",
+                    "usr": "s:8PGameSDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PGameSDK0A8SDKErrorO21missingGoogleClientIdyA2CmF",
+            "mangledName": "$s8PGameSDK0A8SDKErrorO21missingGoogleClientIdyA2CmF",
+            "moduleName": "PGameSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "missingViewController",
+            "printedName": "missingViewController",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameSDKError.Type) -> PGameSDK.PGameSDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameSDKError",
+                    "printedName": "PGameSDK.PGameSDKError",
+                    "usr": "s:8PGameSDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PGameSDK0A8SDKErrorO21missingViewControlleryA2CmF",
+            "mangledName": "$s8PGameSDK0A8SDKErrorO21missingViewControlleryA2CmF",
+            "moduleName": "PGameSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "userCancelled",
+            "printedName": "userCancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameSDKError.Type) -> PGameSDK.PGameSDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameSDKError",
+                    "printedName": "PGameSDK.PGameSDKError",
+                    "usr": "s:8PGameSDK0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PGameSDK0A8SDKErrorO13userCancelledyA2CmF",
+            "mangledName": "$s8PGameSDK0A8SDKErrorO13userCancelledyA2CmF",
+            "moduleName": "PGameSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "network",
+            "printedName": "network",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameSDKError.Type) -> (Swift.String) -> PGameSDK.PGameSDKError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PGameSDK.PGameSDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PGameSDK0A8SDKErrorO7networkyACSScACmF",
+            "mangledName": "$s8PGameSDK0A8SDKErrorO7networkyACSScACmF",
+            "moduleName": "PGameSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "social",
+            "printedName": "social",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameSDKError.Type) -> (Swift.String) -> PGameSDK.PGameSDKError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PGameSDK.PGameSDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PGameSDK0A8SDKErrorO6socialyACSScACmF",
+            "mangledName": "$s8PGameSDK0A8SDKErrorO6socialyACSScACmF",
+            "moduleName": "PGameSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "server",
+            "printedName": "server",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameSDKError.Type) -> (Swift.String) -> PGameSDK.PGameSDKError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PGameSDK.PGameSDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PGameSDK0A8SDKErrorO6serveryACSScACmF",
+            "mangledName": "$s8PGameSDK0A8SDKErrorO6serveryACSScACmF",
+            "moduleName": "PGameSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PGameSDK0A8SDKErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s8PGameSDK0A8SDKErrorO16errorDescriptionSSSgvp",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PGameSDK0A8SDKErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s8PGameSDK0A8SDKErrorO16errorDescriptionSSSgvg",
+                "moduleName": "PGameSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PGameSDK0A8SDKErrorO",
+        "mangledName": "$s8PGameSDK0A8SDKErrorO",
+        "moduleName": "PGameSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PGameSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "PGameSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PGameSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PGameSDKClient",
+        "printedName": "PGameSDKClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PGameSDKClient",
+                "printedName": "PGameSDK.PGameSDKClient",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameSDK"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameSDK(cpy)shared",
+            "mangledName": "$s8PGameSDK0A9SDKClientC6sharedACvpZ",
+            "moduleName": "PGameSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameSDKClient",
+                    "printedName": "PGameSDK.PGameSDKClient",
+                    "usr": "c:@M@PGameSDK@objc(cs)PGameSDK"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameSDK(cm)shared",
+                "mangledName": "$s8PGameSDK0A9SDKClientC6sharedACvgZ",
+                "moduleName": "PGameSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameSDK(cpy)sdkVersion",
+            "mangledName": "$s8PGameSDK0A9SDKClientC10sdkVersionSSvpZ",
+            "moduleName": "PGameSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameSDK(cm)sdkVersion",
+                "mangledName": "$s8PGameSDK0A9SDKClientC10sdkVersionSSvgZ",
+                "moduleName": "PGameSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PGameConfig",
+                "printedName": "PGameSDK.PGameConfig",
+                "usr": "c:@M@PGameSDK@objc(cs)PGameConfig"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameSDK(im)configure:",
+            "mangledName": "$s8PGameSDK0A9SDKClientC9configureyyAA0A6ConfigCF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showLogin",
+            "printedName": "showLogin(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<PGameSDK.PGameLoginResult, PGameSDK.PGameSDKError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<PGameSDK.PGameLoginResult, PGameSDK.PGameSDKError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameLoginResult",
+                        "printedName": "PGameSDK.PGameLoginResult",
+                        "usr": "s:8PGameSDK0A11LoginResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PGameSDK0A9SDKClientC9showLogin4from10completionySo16UIViewControllerC_ys6ResultOyAA0aeJ0VAA0A8SDKErrorOGctF",
+            "mangledName": "$s8PGameSDK0A9SDKClientC9showLogin4from10completionySo16UIViewControllerC_ys6ResultOyAA0aeJ0VAA0A8SDKErrorOGctF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshToken",
+            "printedName": "refreshToken(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<PGameSDK.PGameTokenResult, PGameSDK.PGameSDKError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<PGameSDK.PGameTokenResult, PGameSDK.PGameSDKError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameTokenResult",
+                        "printedName": "PGameSDK.PGameTokenResult",
+                        "usr": "s:8PGameSDK0A11TokenResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PGameSDK0A9SDKClientC12refreshToken_10completionySS_ys6ResultOyAA0aeG0VAA0A8SDKErrorOGctF",
+            "mangledName": "$s8PGameSDK0A9SDKClientC12refreshToken_10completionySS_ys6ResultOyAA0aeG0VAA0A8SDKErrorOGctF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "revoke",
+            "printedName": "revoke(refreshToken:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), PGameSDK.PGameSDKError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), PGameSDK.PGameSDKError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PGameSDK0A9SDKClientC6revoke12refreshToken10completionySS_ys6ResultOyytAA0A8SDKErrorOGctF",
+            "mangledName": "$s8PGameSDK0A9SDKClientC6revoke12refreshToken10completionySS_ys6ResultOyytAA0A8SDKErrorOGctF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userInfo",
+            "printedName": "userInfo(accessToken:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], PGameSDK.PGameSDKError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], PGameSDK.PGameSDKError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameSDKError",
+                        "printedName": "PGameSDK.PGameSDKError",
+                        "usr": "s:8PGameSDK0A8SDKErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PGameSDK0A9SDKClientC8userInfo11accessToken10completionySS_ys6ResultOySDySSypGAA0A8SDKErrorOGctF",
+            "mangledName": "$s8PGameSDK0A9SDKClientC8userInfo11accessToken10completionySS_ys6ResultOySDySSypGAA0A8SDKErrorOGctF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showLogin",
+            "printedName": "showLogin(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameLoginResultObjC?, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(PGameSDK.PGameLoginResultObjC?, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "PGameSDK.PGameLoginResultObjC?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PGameLoginResultObjC",
+                            "printedName": "PGameSDK.PGameLoginResultObjC",
+                            "usr": "c:@M@PGameSDK@objc(cs)PGameLoginResultObjC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PGameSDK@objc(cs)PGameSDK(im)showLoginFrom:completion:",
+            "mangledName": "$s8PGameSDK0A9SDKClientC9showLogin4from10completionySo16UIViewControllerC_yAA0aE10ResultObjCCSg_So7NSErrorCSgtctF",
+            "moduleName": "PGameSDK",
+            "objc_name": "showLoginFrom:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PGameSDK@objc(cs)PGameSDK",
+        "mangledName": "$s8PGameSDK0A9SDKClientC",
+        "moduleName": "PGameSDK",
+        "objc_name": "PGameSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1181,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11865,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 98,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 122,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "StringLiteral",
+      "offset": 435,
+      "length": 26,
+      "value": "\"https:\/\/staging.pgame.vn\""
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 34,
+      "value": "\"https:\/\/api-staging.pgame.vn\/api\""
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 18,
+      "value": "\"https:\/\/pgame.vn\""
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 26,
+      "value": "\"https:\/\/api.pgame.vn\/api\""
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1342,
+      "length": 36,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1360,
+      "length": 1,
+      "value": "\":\/\/pgame-callback\""
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1586,
+      "length": 28,
+      "value": "\"openid profile email phone\""
+    },
+    {
+      "filePath": "\/tmp\/pgame-sdk-ios\/SourcePackage\/Sources\/PGameSDK\/PGameSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 7,
+      "value": "\"1.3.0\""
+    }
+  ]
+}

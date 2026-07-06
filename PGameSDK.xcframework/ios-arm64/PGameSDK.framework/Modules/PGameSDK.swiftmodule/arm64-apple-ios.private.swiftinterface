@@ -1,0 +1,127 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -module-name PGameSDK -package-name sourcepackage
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
+import AuthenticationServices
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc(PGameEnvironment) public enum PGameEnvironment : Swift.Int {
+  case sandbox = 0
+  case production = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc(PGameProvider) public enum PGameProvider : Swift.Int {
+  case account = 0
+  case google = 1
+  case apple = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc(PGameConfig) final public class PGameConfig : ObjectiveC.NSObject {
+  @objc final public let environment: PGameSDK.PGameEnvironment
+  @objc final public let clientId: Swift.String
+  @objc final public let gameCode: Swift.String
+  @objc final public let redirectScheme: Swift.String
+  @objc final public let deviceId: Swift.String?
+  @objc final public let scope: Swift.String?
+  @objc final public var redirectUri: Swift.String {
+    @objc get
+  }
+  @objc public init(environment: PGameSDK.PGameEnvironment, clientId: Swift.String, gameCode: Swift.String, redirectScheme: Swift.String, deviceId: Swift.String? = nil, scope: Swift.String? = "openid profile email phone")
+  @objc deinit
+}
+@objc(PGameUser) final public class PGameUser : ObjectiveC.NSObject {
+  @objc final public let id: Swift.String?
+  @objc final public let username: Swift.String?
+  @objc final public let email: Swift.String?
+  @objc final public let phone: Swift.String?
+  @objc public init(id: Swift.String?, username: Swift.String?, email: Swift.String? = nil, phone: Swift.String? = nil)
+  @objc deinit
+}
+@objc(PGameInfo) final public class PGameInfo : ObjectiveC.NSObject {
+  @objc final public let id: Swift.String?
+  @objc final public let gameCode: Swift.String?
+  @objc final public let name: Swift.String?
+  @objc public init(id: Swift.String?, gameCode: Swift.String?, name: Swift.String?)
+  @objc deinit
+}
+@objc(PGameTokenInfo) final public class PGameTokenInfo : ObjectiveC.NSObject {
+  @objc final public let accessToken: Swift.String
+  @objc final public let refreshToken: Swift.String?
+  @objc final public let tokenType: Swift.String
+  @objc final public let expiresIn: Swift.Int
+  @objc final public let refreshExpiresIn: Swift.Int
+  @objc final public let scope: Swift.String?
+  @objc public init(accessToken: Swift.String, refreshToken: Swift.String?, tokenType: Swift.String, expiresIn: Swift.Int, refreshExpiresIn: Swift.Int, scope: Swift.String?)
+  @objc deinit
+}
+@objc(PGameLoginResultObjC) final public class PGameLoginResultObjC : ObjectiveC.NSObject {
+  @objc final public let code: Swift.String
+  @objc final public let state: Swift.String?
+  @objc final public let redirectUri: Swift.String?
+  @objc final public let user: PGameSDK.PGameUser?
+  @objc final public let game: PGameSDK.PGameInfo?
+  @objc final public let token: PGameSDK.PGameTokenInfo?
+  @objc public init(code: Swift.String, state: Swift.String?, redirectUri: Swift.String?, user: PGameSDK.PGameUser?, game: PGameSDK.PGameInfo?, token: PGameSDK.PGameTokenInfo?)
+  @objc deinit
+}
+public struct PGameLoginResult {
+  public let code: Swift.String
+  public let state: Swift.String?
+  public let redirectUri: Swift.String?
+  public let user: PGameSDK.PGameUser?
+  public let game: PGameSDK.PGameInfo?
+  public let token: PGameSDK.PGameTokenInfo?
+  public var accessToken: Swift.String? {
+    get
+  }
+  public var refreshToken: Swift.String? {
+    get
+  }
+}
+public struct PGameTokenResult {
+  public let token: PGameSDK.PGameTokenInfo
+  public let user: PGameSDK.PGameUser?
+  public let game: PGameSDK.PGameInfo?
+}
+public enum PGameSDKError : Foundation.LocalizedError {
+  case notConfigured
+  case invalidResponse
+  case missingGoogleClientId
+  case missingViewController
+  case userCancelled
+  case network(Swift.String)
+  case social(Swift.String)
+  case server(Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(PGameSDK) final public class PGameSDKClient : ObjectiveC.NSObject {
+  @objc public static let shared: PGameSDK.PGameSDKClient
+  @objc public static let sdkVersion: Swift.String
+  @objc final public func configure(_ config: PGameSDK.PGameConfig)
+  final public func showLogin(from viewController: UIKit.UIViewController, completion: @escaping (Swift.Result<PGameSDK.PGameLoginResult, PGameSDK.PGameSDKError>) -> Swift.Void)
+  final public func refreshToken(_ refreshToken: Swift.String, completion: @escaping (Swift.Result<PGameSDK.PGameTokenResult, PGameSDK.PGameSDKError>) -> Swift.Void)
+  final public func revoke(refreshToken: Swift.String, completion: @escaping (Swift.Result<Swift.Void, PGameSDK.PGameSDKError>) -> Swift.Void)
+  final public func userInfo(accessToken: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], PGameSDK.PGameSDKError>) -> Swift.Void)
+  @objc final public func showLogin(from viewController: UIKit.UIViewController, completion: @escaping (PGameSDK.PGameLoginResultObjC?, Foundation.NSError?) -> Swift.Void)
+  @objc deinit
+}
+extension PGameSDK.PGameEnvironment : Swift.Equatable {}
+extension PGameSDK.PGameEnvironment : Swift.Hashable {}
+extension PGameSDK.PGameEnvironment : Swift.RawRepresentable {}
+extension PGameSDK.PGameProvider : Swift.Equatable {}
+extension PGameSDK.PGameProvider : Swift.Hashable {}
+extension PGameSDK.PGameProvider : Swift.RawRepresentable {}
