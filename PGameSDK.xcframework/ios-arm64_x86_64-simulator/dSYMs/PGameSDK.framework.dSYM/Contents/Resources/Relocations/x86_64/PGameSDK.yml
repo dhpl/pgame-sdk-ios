@@ -1,6 +1,6 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/tmp/pgame-sdk-ios/build/DerivedData/Build/Products/Release-iphonesimulator/PackageFrameworks/PGameSDK.framework/PGameSDK'
+binary-path:     '/Users/dieulong/Projects/Perfin/pgame-sdk-oauth/ios/PGameSDK/build/DerivedData/Build/Products/Release-iphonesimulator/PackageFrameworks/PGameSDK.framework/PGameSDK'
 relocations:
   - { offset: 0x50380, size: 0x8, addend: 0x0, symName: '_$sSo38UIApplicationOpenExternalURLOptionsKeyaSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x3260, symBinAddr: 0x4740, symSize: 0x70 }
   - { offset: 0x50A47, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x1B00, symBinAddr: 0x2FE0, symSize: 0x30 }
