@@ -120,6 +120,47 @@
             "fixedbinaryorder": 1
           },
           {
+            "kind": "Var",
+            "name": "local",
+            "printedName": "local",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PGameSDK.PGameEnvironment.Type) -> PGameSDK.PGameEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PGameEnvironment",
+                    "printedName": "PGameSDK.PGameEnvironment",
+                    "usr": "c:@M@PGameSDK@E@PGameEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PGameSDK.PGameEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PGameEnvironment",
+                        "printedName": "PGameSDK.PGameEnvironment",
+                        "usr": "c:@M@PGameSDK@E@PGameEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PGameSDK@E@PGameEnvironment@PGameEnvironmentLocal",
+            "mangledName": "$s8PGameSDK0A11EnvironmentO5localyA2CmF",
+            "moduleName": "PGameSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -4732,16 +4773,23 @@
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameLoginViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1181,
+      "offset": 1495,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameLoginViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11970,
+      "offset": 13694,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17827,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
@@ -4760,70 +4808,91 @@
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 200,
+      "offset": 141,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 220,
+      "offset": 239,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
+      "offset": 258,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
       "kind": "StringLiteral",
-      "offset": 435,
+      "offset": 452,
+      "length": 26,
+      "value": "\"http:\/\/192.168.1.41:3001\""
+    },
+    {
+      "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "StringLiteral",
+      "offset": 514,
+      "length": 30,
+      "value": "\"http:\/\/192.168.1.41:3000\/api\""
+    },
+    {
+      "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
       "length": 26,
       "value": "\"https:\/\/staging.pgame.vn\""
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
       "kind": "StringLiteral",
-      "offset": 497,
+      "offset": 697,
       "length": 34,
       "value": "\"https:\/\/api-staging.pgame.vn\/api\""
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
       "kind": "StringLiteral",
-      "offset": 625,
+      "offset": 825,
       "length": 18,
       "value": "\"https:\/\/pgame.vn\""
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
       "kind": "StringLiteral",
-      "offset": 679,
+      "offset": 879,
       "length": 26,
       "value": "\"https:\/\/api.pgame.vn\/api\""
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
       "kind": "StringLiteral",
-      "offset": 1342,
+      "offset": 1678,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
       "kind": "StringLiteral",
-      "offset": 1360,
+      "offset": 1696,
       "length": 1,
       "value": "\":\/\/pgame-callback\""
     },
     {
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameModels.swift",
       "kind": "StringLiteral",
-      "offset": 1586,
+      "offset": 1922,
       "length": 28,
       "value": "\"openid profile email phone\""
     },
@@ -4831,8 +4900,8 @@
       "filePath": "\/Users\/dieulong\/Projects\/Perfin\/pgame-sdk-oauth\/ios\/PGameSDK\/Sources\/PGameSDK\/PGameSDK.swift",
       "kind": "StringLiteral",
       "offset": 171,
-      "length": 7,
-      "value": "\"1.3.5\""
+      "length": 13,
+      "value": "\"1.3.6-dev.1\""
     }
   ]
 }

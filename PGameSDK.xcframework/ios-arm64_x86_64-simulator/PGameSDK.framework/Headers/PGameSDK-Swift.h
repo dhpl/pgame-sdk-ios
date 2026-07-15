@@ -390,6 +390,7 @@ SWIFT_CLASS_NAMED("PGameConfig")
 typedef SWIFT_ENUM_NAMED(NSInteger, PGameEnvironment, "PGameEnvironment", open) {
   PGameEnvironmentSandbox = 0,
   PGameEnvironmentProduction = 1,
+  PGameEnvironmentLocal = 2,
 };
 
 SWIFT_CLASS_NAMED("PGameInfo")
@@ -861,6 +862,7 @@ SWIFT_CLASS_NAMED("PGameConfig")
 typedef SWIFT_ENUM_NAMED(NSInteger, PGameEnvironment, "PGameEnvironment", open) {
   PGameEnvironmentSandbox = 0,
   PGameEnvironmentProduction = 1,
+  PGameEnvironmentLocal = 2,
 };
 
 SWIFT_CLASS_NAMED("PGameInfo")
