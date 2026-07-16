@@ -12,6 +12,7 @@ import _SwiftConcurrencyShims
 @objc(PGameEnvironment) public enum PGameEnvironment : Swift.Int {
   case sandbox = 0
   case production = 1
+  case local = 2
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
